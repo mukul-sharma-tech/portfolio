@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukul Sharma | Full Stack MERN Developer</title>
+    <link rel="icon" href="profile.jpg" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+</head>
+
+<body>
+    <!-- 3D Background -->
+    <div id="threejs-background"></div>
+    
+    <!-- Header -->
+    <header id="header">
+        <a href="#" class="logo">Mukul<span>Sharma</span></a>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+            <div class="close-menu">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="animated-gradient">Mukul Sharma</span></h1>
+            <h2 class="typewriter">Full Stack MERN Developer</h2>
+            <p>Building innovative solutions with cutting-edge technologies</p>
+            <div class="button-group">
+                <a href="#contact" class="cta-button pulse">Get In Touch</a>
+                <a href="https://drive.google.com/file/d/1lecdTcTfZ9JJcWCvyKG3G8pZChVvxkbp/view?usp=sharing" download class="cta-button secondary">Download Resume</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/mukul-sharma-tech" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mukul-sharma-830a152b2/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/mukul10104" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                <a href="https://www.instagram.com/mukul_sharma_1010/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100040942951207" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-container">
+                <img src="profile.jpg" alt="Mukul Sharma" class="profile-img">
+                <div class="tech-icons">
+                    <i class="fab fa-html5" style="--i:1"></i>
+                    <i class="fab fa-css3-alt" style="--i:2"></i>
+                    <i class="fab fa-js" style="--i:3"></i>
+                    <i class="fab fa-react" style="--i:4"></i>
+                    <i class="fab fa-node-js" style="--i:5"></i>
+                    <i class="fas fa-database" style="--i:6"></i>
+                    <i class="fab fa-python" style="--i:7"></i>
+                    <i class="fab fa-java" style="--i:8"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <h2><span>About</span> Me</h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Who Am I?</h3>
+                <p>I'm Mukul Sharma, a passionate Full Stack MERN Developer currently pursuing a B.Tech in Computer Science and Technology at MAIT Delhi. With a strong foundation in programming and problem-solving, I specialize in building modern web applications using cutting-edge technologies.</p>
+                
+                <p>I have a proven academic record with a <span class="highlight">9.2+ CGPA</span> and have secured the <span class="highlight">8th rank</span> in my branch. My technical expertise spans across multiple programming languages and frameworks, with hands-on experience gained through internships and personal projects.</p>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="70">0</div>
+                        <div class="stat-label">LeetCode Problems Solved</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="9">0</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="8">0</div>
+                        <div class="stat-label">Branch Rank</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="cube-container">
+                    <div class="cube">
+                        <div class="face front">C++</div>
+                        <div class="face back">Python</div>
+                        <div class="face right">Java</div>
+                        <div class="face left">JavaScript</div>
+                        <div class="face top">React</div>
+                        <div class="face bottom">Node.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-title">
+            <h2>My <span>Skills</span></h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">C</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Bootstrap</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend & Databases</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Express</span>
+                    <span class="skill-tag">MongoDB</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">DBMS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Others</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">DSA</span>
+                    <span class="skill-tag">AI Tools</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="skill-bars-container">
+            <div class="skill-bar-item">
+                <div class="skill-info">
+                    <span>Web Development</span>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0" data-width="85"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item">
+                <div class="skill-info">
+                    <span>DSA (C++)</span>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0" data-width="80"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item">
+                <div class="skill-info">
+                    <span>React</span>
+                    <span>10%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0" data-width="75"></div>
+                </div>
+            </div>
+            <div class="skill-bar-item">
+                <div class="skill-info">
+                    <span>Node.js</span>
+                    <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 0" data-width="70"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-title">
+            <h2>My <span>Projects</span></h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Bhagavad Geeta AI Chatbot">
+                    <div class="project-overlay">
+                        <h3>Bhagavad Geeta AI Chatbot</h3>
+                        <p>An NLP-powered chatbot that provides insights from the Bhagavad Geeta</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Bhagavad Geeta AI Chatbot</h3>
+                    <p>Developed an AI chatbot using Natural Language Processing that can answer questions and provide wisdom from the Bhagavad Geeta.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://i2-prod.mirror.co.uk/incoming/article174568.ece/ALTERNATES/s615b/m4-image-3-952043378.jpg" alt="Harry Potter Invisible Cloak">
+                    <div class="project-overlay">
+                        <h3>Invisible Cloak</h3>
+                        <p>Harry Potter style invisible cloak using Python and OpenCV</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Harry Potter Invisible Cloak</h3>
+                    <p>Created a real-time invisible cloak effect using color detection and image processing techniques in Python with OpenCV.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Vehicle Number Generating Platform">
+                    <div class="project-overlay">
+                        <h3>Vehicle Number Platform</h3>
+                        <p>A platform for generating and managing vehicle numbers</p>
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                            <span>Database</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Vehicle Number Generating Platform</h3>
+                    <p>Developed a web application for generating and managing vehicle registration numbers with admin features.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 4 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="URL Shortener">
+                    <div class="project-overlay">
+                        <h3>URL Shortener</h3>
+                        <p>A service to shorten long URLs</p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>URL Shortener</h3>
+                    <p>Built a URL shortening service similar to bit.ly with analytics features using Node.js and MongoDB.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 5 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="HandPilot">
+                    <div class="project-overlay">
+                        <h3>HandPilot</h3>
+                        <p>Smart hand gesture cursor controller</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>HandPilot</h3>
+                    <p>A smart hand gesture recognition system that controls the computer cursor through hand movements using computer vision.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 6 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="AI-Hire">
+                    <div class="project-overlay">
+                        <h3>AI-Hire</h3>
+                        <p>AI-driven video conferencing interview analyzer</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>WebRTC</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>AI-Hire</h3>
+                    <p>Currently working on an AI-driven platform that analyzes video interviews and resumes to help recruiters make better hiring decisions.</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+                
+            <!-- Project 7 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="AI-Hire">
+                    <div class="project-overlay">
+                        <h3>EduAssist AI</h3>
+                        <p>AI-driven Smart Feedback & Student Grading.</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>WebRTC</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>EduAssist AI</h3>
+                    <p>Currently working on an AI-driven platform Smart Feedback & Student Grading with video conferencing oral assesment and integrated Gemini Assistant</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+                
+            <!-- Project 8 -->
+            <div class="project-card" data-tilt>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="AI-Hire">
+                    <div class="project-overlay">
+                        <h3>FarmerAssist</h3>
+                        <p>Personalized Farming Dashboard</p>
+                        <div class="project-tags">
+                            <span>AI</span>
+                            <span>WebRTC</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>FarmerAssist</h3>
+                    <p>Currently working on an AI-driven platform that analyzes the current market MSP, Mandi Prices, Weather and climate conditions to help Farmers manage the crops</p>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-title">
+            <h2>My <span>Experience</span></h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Web Developer Intern</h3>
+                    <h4>SkillCraft Technology</h4>
+                    <p>Worked on developing and maintaining web applications using modern technologies.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Virtual Internship</h3>
+                    <h4>TATA & Walmart (via Forage)</h4>
+                    <p>Completed job simulations in Data Visualization, Cybersecurity, and Advanced Software Engineering.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>AI Project Intern</h3>
+                    <h4>TechSaksham (Microsoft, AICTE, SAP, Edunet)</h4>
+                    <p>Implemented a Chatbot using NLP as part of this internship program.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Cybersecurity Intern</h3>
+                    <h4>IBM SkillBuild (AICTE & Edunet)</h4>
+                    <p>Completed an intensive program on cybersecurity essentials and best practices.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="certifications">
+            <h3>Certifications</h3>
+            <div class="certification-grid">
+                <div class="certification-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Cybersecurity Essentials</h4>
+                    <p>CISCO</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fab fa-python"></i>
+                    <h4>Python for Data Science</h4>
+                    <p>IBM</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-robot"></i>
+                    <h4>Generative AI</h4>
+                    <p>Microsoft & LinkedIn</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-cloud"></i>
+                    <h4>AWS Cloud Essentials</h4>
+                    <p>Amazon Web Services</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="section-title">
+            <h2>My <span>Education</span></h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Maharaja Agrasen Institute Of Technology, Delhi</h3>
+                    <h4>B.Tech in Computer Science and Technology</h4>
+                    <div class="education-details">
+                        <span>2023 - 2027</span>
+                        <span>CGPA: 9.355 (8th Rank in Branch)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <div class="education-content">
+                    <h3>Joseph & Mary Public School, Delhi</h3>
+                    <h4>CBSE - Class 12th</h4>
+                    <div class="education-details">
+                        <span>2022</span>
+                        <span>Percentage: 92.6% (7th Rank in School)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-title">
+            <h2>Contact <span>Me</span></h2>
+            <div class="title-decoration"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out for collaborations or just to say hello!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Delhi, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:muku0784@gmail.com">muku0784@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <a href="tel:+918882360895">+91 8882360895</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/mukul-sharma-tech" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mukul-sharma-830a152b2/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/mukul10104" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+                    <a href="https://www.instagram.com/mukul_sharma_1010/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" class="form-control" required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="footer-logo">Mukul<span>Sharma</span></a>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com/mukul-sharma-tech" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mukul-sharma-830a152b2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/mukul10104" target="_blank"><i class="fab fa-x"></i></a>
+                <a href="https://www.instagram.com/mukul_sharma_1010/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; 2024 Mukul Sharma. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
